@@ -6,8 +6,18 @@ const app = express();
 
 const port = 8000;
 
+// middlleware
 app.use(express.urlencoded({ extended: false }));
 
+app.use((req, res, next) => {
+  console.log("Middleware");
+  next(); 
+});
+
+app.use((req, res, next) => {
+  console.log("Middleware 2");
+  next();
+});
 /// Routes
 
 /// for ssr
