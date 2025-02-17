@@ -1,4 +1,3 @@
-const { model } = require("mongoose");
 const User = require("../models/user");
 
 async function handleGetAllUsers(req, res) {
@@ -51,5 +50,5 @@ module.exports = {
   handleGetUserById,
   handleUpdateUserById,
   handleDeleteUserById,
-  handleCreateNewUser
+  handleCreateNewUser,
 };

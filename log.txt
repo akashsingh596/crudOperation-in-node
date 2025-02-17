@@ -1,1 +1,11 @@
 1739785516849: GET /.well-known/gpc.json
+1739785760367: GET /.well-known/gpc.json
+1739785817023: GET /.well-known/gpc.json
+1739785909935: GET /.well-known/gpc.json
+1739786002617: GET /api/users
+1739786037592: GET /api/users
+1739786061277: GET /.well-known/gpc.json
+1739786082242: POST /api/users
+1739786117177: GET /.well-known/gpc.json
+1739786145857: GET /api/users/67b30762f7cba4de11b086b9
+1739786162662: DELETE /api/users/67b30762f7cba4de11b086b9
